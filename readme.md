@@ -1,3 +1,8 @@
+## Como foi feito?
+Criei 5 variáveis sendo elas: vitorias, derrotas, resultado, nivel, saldoVitorias
+Crei uma function para retornar os valores dessas variáveis
+
+
 Instruções para entrega
  # 2️⃣ Calculadora de partidas Rankeadas
 **O Que deve ser utilizado**
