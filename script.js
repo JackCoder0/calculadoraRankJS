@@ -1,3 +1,8 @@
+// Desafio 02 - Calculadora de partidas Rankeadas
+// Dev: Jackson Silva
+// Data: 14/09/2023
+
+// Retorna o Saldo de Vitórias
 function nivelRankeada(vitorias, derrotas){
     //Calcula o saldo de Vitórias
     let saldoVitorias = vitorias - derrotas
@@ -30,8 +35,9 @@ function nivelRankeada(vitorias, derrotas){
     //Retorno a mensagem de saída
     return `O Herói tem o saldo de ${saldoVitorias} e está no nível ${nivel}!`
 }
-
+//Valores das variáveis
 let vitorias = 200
 let derrotas = 100
+//Variável para mostrar na tela
 const resultado = nivelRankeada(vitorias, derrotas)
 console.log(resultado)
